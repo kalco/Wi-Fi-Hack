@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 
-// Getting meta data  node index.js
+// Getting meta data
 const metaData = execSync('netsh wlan show profiles');
 
 // Decoding meta data
