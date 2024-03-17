@@ -1,6 +1,6 @@
 ﻿import subprocess
 
-# getting meta data   python index.py
+# getting meta data
 meta_data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'])
 
 # decoding meta data
