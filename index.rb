@@ -1,4 +1,4 @@
-# getting meta data      ruby index.rb
+# getting meta data
 meta_data = `netsh wlan show profiles`
 
 # decoding meta data
